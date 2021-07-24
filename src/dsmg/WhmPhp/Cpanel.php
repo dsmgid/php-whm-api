@@ -1,4 +1,4 @@
-<?php namespace dsmg\CpanelPhp;
+<?php namespace dsmg\WhmPhp;
 
 use GuzzleHttp\Client;
 

@@ -1,5 +1,5 @@
 <?php
-namespace dsmg\CpanelPhp;
+namespace dsmg\WhmPhp;
 
 
 /**

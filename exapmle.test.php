@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-use dsmg\CpanelPhp\Cpanel;
+use dsmg\WhmPhp\Cpanel;
 $cpanel = new Cpanel($options=array(
     'host'=>'https://localhost2087',
     'username'=>'root',

@@ -1,6 +1,6 @@
 {
-    "name": "dsmgid/php-cpanel-api",
-    "description": "Cpanel/WHM API for PHP",
+    "name": "dsmgid/php-whm-api",
+    "description": "WHM API for PHP",
     "license": "MIT",
     "authors": [{
         "name": "Salvatore Cahyo",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "dsmg\\CpanelPhp\\": "src/"
+            "dsmg\\WhmPhp\\": "src/"
         }
     },
     "minimum-stability": "stable"

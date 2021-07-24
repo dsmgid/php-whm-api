@@ -10,11 +10,11 @@
 
 To install this package, you can run this code via your terminal
 ```shell
-	composer require phasehosting/cpanel-whm
+	composer require dsmgid/cpanel-whm
 ```
 Or update your `composer.json` by adding this line
 ```json
-	"phasehosting/cpanel-php":"~1.0"
+	"dsmgid/cpanel-php":"~1.0"
 ```
 
 Then, run this code
@@ -28,7 +28,7 @@ For example, if you would like to get list accounts of your whm server, you can 
 
 ```php
   <?php
-  $cpanel = new \Phase\CpanelPhp\Cpanel([
+  $cpanel = new \dsmgid\CpanelPhp\Cpanel([
       'host'        =>  'https://123.456.789.123:2087', // ip or domain complete with its protocol and port
       'username'    =>  'root', // username of your server, it usually root.
       'auth_type'   =>  'hash', // set 'hash' or 'password'
@@ -41,17 +41,23 @@ For example, if you would like to get list accounts of your whm server, you can 
 
 ### Functions
 
-- [Defining Configuration on constructor](#defining-configuration-on-constructor)
-- [Usage](#usage)
-- [Overriding Current configuration](#overriding-current-configuration)
-- [Get defined configuration](#get-defined-configuration)
+- [cPanel/WHM API for PHP library](#cpanelwhm-api-for-php-library)
+- [Contents](#contents)
+  - [Installation Guide](#installation-guide)
+  - [Usage](#usage)
+  - [Functions](#functions)
+    - [Defining Configuration on constructor](#defining-configuration-on-constructor)
+    - [Usage](#usage-1)
+    - [Overriding current configuration](#overriding-current-configuration)
+    - [Get defined configuration](#get-defined-configuration)
+    - [Feedback and contribution](#feedback-and-contribution)
 
 #### Defining Configuration on constructor
 This is the example when you want to define your configuration while creating new object
 
 ```php
   <?php
-  $cpanel = new \Phase\CpanelPhp\Cpanel([
+  $cpanel = new \dsmgid\CpanelPhp\Cpanel([
       'host'        =>  'https://123.456.789.123:2087', // required
       'username'    =>  'root', // required
       'auth_type'   =>  'hash', // optional, default 'hash'

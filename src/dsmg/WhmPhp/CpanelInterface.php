@@ -1,19 +1,19 @@
 <?php
 namespace dsmg\WhmPhp;
 
-
 /**
  * cPanel/WHM API
  *
  * Provides easy to use class for calling some CPanel/WHM API functions.
  *
- * @author Mochamad Gufron <mgufronefendi@gmail.com>
+ * @author Salvatore Cahyo <salva@dsgroupmedia.com>
  *
- * @version v1.0.2
+ * @version v1.0.0
  *
- * @link https://github.com/mgufrone/cpanel-php
+ * @link https://github.com/dsmgid/php-whm-api
  * @since v1.0.0
  */
+
 interface CpanelInterface
 {
     /**

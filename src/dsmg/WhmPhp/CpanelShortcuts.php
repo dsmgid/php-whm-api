@@ -1,12 +1,18 @@
 <?php namespace dsmg\WhmPhp;
 
 /**
- * Trait CpanelShortcuts
+ * cPanel/WHM API
  *
- * A handful of shortcuts for getting things done(tm)
+ * Provides easy to use class for calling some CPanel/WHM API functions.
  *
- * @package Gufy\CpanelWhm
+ * @author Salvatore Cahyo <salva@dsgroupmedia.com>
+ *
+ * @version v1.0.0
+ *
+ * @link https://github.com/dsmgid/php-whm-api
+ * @since v1.0.0
  */
+
 trait CpanelShortcuts
 {
     /**

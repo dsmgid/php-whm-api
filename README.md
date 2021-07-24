@@ -10,11 +10,11 @@
 
 To install this package, you can run this code via your terminal
 ```shell
-	composer require dsmgid/cpanel-whm
+	composer require dsmgid/php-cpanel-api
 ```
 Or update your `composer.json` by adding this line
 ```json
-	"dsmgid/cpanel-php":"~1.0"
+	"dsmgid/php-cpanel-api":"~1.0"
 ```
 
 Then, run this code
